@@ -8,15 +8,16 @@ public class AVClub {
         
         String input = String.valueOf(scanner.nextLine());
         
-        String[] words = input.split(" ");
-        
-        for (int i = 0; i < words.length; i++) {
-            if (words[i].contains("av")) {
-                System.out.println(words[i]);
-            }
-        }
+        while (input.contains("av")){
+            String[] words = input.split(" ");
 
-        
+            for (int i = 0; i < words.length; i++) {
+                if (words[i].contains("av")) {
+                    System.out.println(words[i]);
+                }
+            }
+            input = String.valueOf(scanner.nextLine());
+        }
 
     }
 }
