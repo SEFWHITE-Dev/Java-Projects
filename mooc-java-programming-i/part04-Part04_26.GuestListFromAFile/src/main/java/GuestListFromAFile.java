@@ -24,8 +24,15 @@ public class GuestListFromAFile {
 
             if (list.contains(name)) {
                 System.out.println("The name is on the list.");
+                
+
             } else {
                 System.out.println("The name is not on the list.");
+                for (String item: list){
+                    if (item.equals(name)){
+                        System.out.println(name);
+                    }
+                }
             }
         }
 
