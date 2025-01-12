@@ -16,5 +16,17 @@ public class Book {
     public int getPublicationYear() {
         return publicationYear;
     }
-
+    
+    public boolean checkDupe(Book input) {
+        
+        if(this == input) {
+            return true;
+        }
+        
+        if (this.name.equals(input.name) && this.publicationYear == input.publicationYear){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

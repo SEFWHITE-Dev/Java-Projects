@@ -18,8 +18,20 @@ public class Main {
             System.out.println("Publication year:");
             int publicationYear = Integer.valueOf(scanner.nextLine());
             Book book = new Book(name, publicationYear);
-            books.add(book);
-
+            if (books.isEmpty()) {
+                books.add(book);        
+            }
+            
+            boolean isDupe = false;
+            
+            for(Book ibook: books) {
+                if (book.checkDupe(ibook)) {
+                    isDupe = true;
+                }
+            }
+            if (!isDupe) {
+                books.add(book);     
+            }
         }
         
         // NB! Don't alter the line below!
