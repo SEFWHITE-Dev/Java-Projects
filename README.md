@@ -1,25 +1,57 @@
 # Java-Projects
 
-<h2>（考察中）</h2>
+<h2>学習内容</h2>
+ヘルシンキ大学が提供するJavaの入門コース </br>
+学習内容が細かいプロジェクトに分けられ、実際にコードを組んで、テストし進行する。</br>
 
-・データを映像化（グラフ表示）
- - JavaFX SDKを使用して、データを表示
-https://java-programming.mooc.fi/part-14/1-data-visualization
+https://java-programming.mooc.fi/</br>
 
-・2Dアストロイドゲーム
- - ゲームのウィンドウ表示
- - プレイヤーキャラ制作、操作
- - 障害物制作、当たり判定
 
-・ウェブサービス
- - JSP(Java Server Pages) Script + バックエンドPOJO(Plain Old Java Object)コード
- - Tomcat ウェブサーバー
- - curl utilityでクライアントを
-https://www.youtube.com/watch?v=l8E5Ucm7Zqc
+学習内容は合計14部に分けられ、主に下記の内容を中心とした演習課題をこなす。</br>
+</br>
+  <h3>オブジェクト指向プログラミング</h3>
+  - メソッドオーバーロードとコンストラクタ</br>
+  - オブジェクトと参照</br>
+  - プログラミングパラダイム</br>
+  - プリミティブと参照変数</br>
+  - クラス継承</br>
+  - インターフェース</br>
+  - ポリモーフィズム  </br>
 
-2択:
-JAX-WS: SOAP ウェブサービス用
-JAX-RS: RESTful ウェブサービス用
+ <h3>データ構造とアルゴリズム</h3>
+  - 配列とリスト</br>
+  - ArrayListとハッシュテーブル
+  - ハッシュマップ</br>
+  - データ収集の効率化</br>
+  - コレクションをストリームで操作</br>
+  - オブジェクトを比較</br>
+  - 多次元データ</br>
 
-https://www.javatpoint.com/java-web-services-tutorial
-https://www.codecademy.com/article/what-is-rest
+ <h3>その他</h3>
+ - エラーハンドリング</br>
+ - テスティング</br>
+ - ファイルとデータの読み込み</br>
+ - クラス図</br>
+ - パッケージ</br>
+ - Exception</br>
+ - GUI、イベントハンドリング</br>
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
